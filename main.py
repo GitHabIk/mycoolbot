@@ -16,7 +16,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Токен вашего Telegram-бота
-TOKEN = "7665428689:AAEBSUzgQDtwSkCNszJcGt4a6ilad5kDcRE"
+TOKEN = "TOKEN"
 
 if not TOKEN:
     raise ValueError("Токен не найден! Проверьте Secrets в Replit")
